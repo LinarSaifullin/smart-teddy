@@ -65,3 +65,27 @@ header .actions span {
     
 }
 
+.hero {
+background-image: url(Img/Group_3123464.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.hero-left,
+.hero-right {
+    border: 1px solid yellow;
+    
+}
+
+.hero-left {
+    width: 500px;
+}
+.hero-left h1 {
+    color: #fff;
+    font-size: 50px;
+}
+
+.hero-right img:first-child {
+
+}
+
