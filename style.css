@@ -73,26 +73,29 @@ background-size: cover;
 
 .hero-left,
 .hero-right {
-    /*border: 1px solid yellow;*/
+    /*border: 1px solid yellow; */
     display: inline-block;
     
 }
 
-.hero-left {
+.hero-left img:first-child{
     width: 500px;
-    vertical-align: 95px;
+    vertical-align: top;
+    left: 25px;
 }
+
 .hero-left h1 {
     color: #fff;
-    font-size: 50px;
+    font-size: 35px;
+    display: inline-block;
 }
 
 .hero-left p {
-color:rgb(102, 69, 53, 1);
+color:rgba(102, 69, 53, 1);
 font-weight: bold;
-font-size: 20px;
-line-height: 24px;
-margin-top: 28px 0 59px 0;
+font-size: 15px;
+line-height: 25px;
+margin: 20px 0 50px 0;
 }
 
 .hero-left a {
@@ -107,23 +110,24 @@ margin-top: 28px 0 59px 0;
 }
 
 .hero-left a:hover {
-    box-shadow: 0 0 10px 0 rgb(0, 0, 0, 0, 633);
-}
+    box-shadow: 0 0 10px 0  rgba(0, 0, 0, 0, 633);
+} 
 
-.hero-right img:first-child{
-    width: 550px;
-}
-
-.hero-right img:last-child{
-margin-left: -250px;
-}
-
-.hero-right {
-    position: relative;
+.hero-right img:first-child { 
+    width: 450px;
 }
 
 .hero-right img:last-child {
-width: 600px
+    margin-left: -250px;
+    }
+
+.hero-right {
+    position: relative;
+    left: -70px;
+}
+
+.hero-right img:last-child {
+    width: 560px
 }
 .hero-right img:last-child {
     width: 230px;
